@@ -1,1 +1,7 @@
 //codigo arduino
+//Cinematica directa
+void CinematicaInversa(float q1,float q2,float& X,float& Y){
+  
+  X=l1*cos(q1)+l2*cos(q1+q2);
+  Y=l1*sin(q1)+l2*sin(q1+q2);
+}
