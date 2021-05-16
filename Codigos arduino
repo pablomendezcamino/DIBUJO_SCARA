@@ -1,4 +1,8 @@
 //codigo arduino
+//PARAMETROS SCARA
+#define l1 15
+#define l2 15
+
 //Cinematica directa
 void CinematicaInversa(float q1,float q2,float& X,float& Y){
   
